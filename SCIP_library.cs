@@ -149,3 +149,53 @@ namespace SCIP_library
 
         /// <summary>
         /// decode multiple data
+        /// </summary>
+        /// <param name="data">encoded string</param>
+        /// <param name="size">encode size</param>
+        /// <returns>decode result</returns>
+        public static bool decode_array(string data, int size, ref List<long> decoded_data)
+        {
+            for (int pos = 0; pos <= data.Length - size; pos += size) {
+                decoded_data.Add(decode(data, size, pos));
+            }
+            return true;
+        }
+
+		
+		public static bool ME(string get_command, ref long time_stamp, ref List<long> distances, ref List<long> strengths)
+		{
+			string[] split_command = get_command.Split(new char[] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
+			
+//			if (!split_command[0].StartsWith("ME")) {
+//				return false;
+//			}
+			
+			if (split_command[1].StartsWith("00")) {
+				return true;
+			} else if (split_command[1].StartsWith("99")) {
+				time_stamp = SCIP_Reader.decode(split_command[2], 4);
+				distance_strength_data(split_command, 3, ref distances, ref strengths);
+				return true;
+			} else {
+				return false;
+			}
+		}
+
+		public static bool distance_strength_data(string[] lines, int start_line, ref List<long> distances, ref List<long> strengths)
+		{
+			StringBuilder sb = new StringBuilder();
+			for (int i = start_line; i < lines.Length; ++i) {
+				sb.Append(lines[i].Substring(0, lines[i].Length - 1));
+			}
+			return SCIP_Reader.decode_array(sb.ToString(), 3, ref distances, ref strengths);
+		}
+		public static bool decode_array(string data, int size, ref List<long> decoded_data, ref List<long> stdecoded_data)
+		{
+			for (int pos = 0; pos <= data.Length - size * 2; pos += size * 2) {
+				decoded_data.Add(decode(data, size, pos));
+				stdecoded_data.Add(decode(data, size, pos + size));
+			}
+			return true;
+		}
+    }
+}
