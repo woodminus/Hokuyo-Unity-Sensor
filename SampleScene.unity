@@ -208,3 +208,99 @@ PrefabInstance:
       value: Sensor Data
       objectReference: {fileID: 0}
     - target: {fileID: 4575640681382976582, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575640681382976582, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575640681382976582, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575640681382976582, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575640681382976582, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575640681382976582, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575640681382976582, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575640681382976582, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575640681382976582, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575640681382976582, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575640681382976582, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575640681382976601, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: ip_address
+      value: 192.168.0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575640681382976601, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: drawRunningLine
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575640681382976601, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: drawObject
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575640681382976601, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: drawObjectCenterRay
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575640681382976601, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: drawObjectRays
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575640681382976601, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: debugDrawDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575640681382976601, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: detectRectWidth
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575640681382976601, guid: 98579b2de53903c489b6f4444f2d5eb2,
+        type: 3}
+      propertyPath: detectRectHeight
+      value: 1080
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98579b2de53903c489b6f4444f2d5eb2, type: 3}
