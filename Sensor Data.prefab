@@ -9,4 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4575640681382976582}
-  - component:
+  - component: {fileID: 4575640681382976601}
+  m_Layer: 0
+  m_Name: Sensor Data
+  m_TagString: Untagged
+  m_Icon: {
