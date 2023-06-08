@@ -41,3 +41,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 307b3ffa9488c41619dec48bc346675c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ip_address: 192.168.0.10
+  port_number: 10940
+  distanceCroppingMetho
