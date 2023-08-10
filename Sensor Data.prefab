@@ -45,4 +45,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ip_address: 192.168.0.10
   port_number: 10940
-  distanceCroppingMetho
+  distanceCroppingMethod: 0
+  detectRectWidth: 1733
+  detectRectHeight: 926
+  maxDetectionDist: 1100
+  smoothDistanceCurve: 0
+  smoo
