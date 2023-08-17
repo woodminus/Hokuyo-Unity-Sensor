@@ -50,4 +50,9 @@ MonoBehaviour:
   detectRectHeight: 926
   maxDetectionDist: 1100
   smoothDistanceCurve: 0
-  smoo
+  smoothDistanceByTime: 0
+  smoothKernelSize: 13
+  timeSmoothFactor: 0.08
+  deltaLimit: 50
+  noiseLimit: 10
+  
