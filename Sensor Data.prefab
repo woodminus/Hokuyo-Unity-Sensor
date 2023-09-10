@@ -60,4 +60,6 @@ MonoBehaviour:
   drawObjectRays: 1
   drawObjectCenterRay: 1
   drawObject: 1
-  distanceColor: {r: 
+  distanceColor: {r: 1, g: 1, b: 1, a: 0.34509805}
+  strengthColor: {r: 1, g: 0.0956518, b: 0, a: 0.4862745}
+  objectColor
