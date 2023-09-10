@@ -55,4 +55,9 @@ MonoBehaviour:
   timeSmoothFactor: 0.08
   deltaLimit: 50
   noiseLimit: 10
-  
+  debugDraw: 1
+  debugDrawDistance: 1
+  drawObjectRays: 1
+  drawObjectCenterRay: 1
+  drawObject: 1
+  distanceColor: {r: 
