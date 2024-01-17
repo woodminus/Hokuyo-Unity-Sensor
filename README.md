@@ -1,1 +1,1 @@
-# Hokuyo-Unity-Sensor\n\n## Status: WORKING IN PROGRESS\n\nThis project is an enhanced version based on https://github.com/inoook/UnityURG designed for more interactive and maximized functionality.\n\n*Please note: T
+# Hokuyo-Unity-Sensor\n\n## Status: WORKING IN PROGRESS\n\nThis project is an enhanced version based on https://github.com/inoook/UnityURG designed for more interactive and maximized functionality.\n\n*Please note: The code is still at a very primitive state, object detection can be improved*\n\nImprovements and contrib
